@@ -1,0 +1,101 @@
+/* HTML CONTENT */
+
+html {
+    background-color: #000000;
+}
+
+/* HTML CONTENT */
+
+.background-box {
+    background-color: rgb(31, 31, 31);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #000000;
+    padding: 15px;
+    height: 300px;
+    width: 500px;
+    border-radius: 5%;
+}
+.cpf-box {
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+input {
+    height: 25px;
+    width: 500px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border: none;
+}
+
+input#matricula {
+    border-bottom:  2px solid black;
+    padding: 12px 20px 12px 40px;
+    box-sizing: border-box;
+    background-image: url('images/matricula-img-15px.png');
+    background-position: 5px;
+    background-size: 15px;
+    background-repeat: no-repeat;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+input#senha {
+    border-bottom:  2px solid black;
+    padding: 12px 20px 12px 40px;
+    box-sizing: border-box;
+    background-image: url('images/senha-img.png');
+    background-position: 5px;
+    background-size: 15px;
+    background-repeat: no-repeat;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+::placeholder {
+    color: rgb(168, 168, 168);
+}
+
+.introduction {
+    text-align: center;
+}
+
+h1#titulo {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.div-button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.button {
+    border-radius: 8%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: rgb(31, 31, 31); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #ffffff;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
